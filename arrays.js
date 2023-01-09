@@ -84,6 +84,9 @@ if (stations.indexOf("Durham") >= 0){
 }
 console.log(stoppingAtDurham);
 
+// OR
+stoppingAtDurham = stations.includes("Durham");
+console.log(stoppingAtDurham);
 
 /**
  * Q9.
