@@ -82,7 +82,7 @@ if (stations.indexOf("Durham") >= 0){
 } else {
     stoppingAtDurham = false;
 }
-console.log(stoppingAtDurham);
+//console.log(stoppingAtDurham);
 
 // OR
 stoppingAtDurham = stations.includes("Durham");

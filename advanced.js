@@ -32,35 +32,49 @@ unitedKingdom = [
  * Q1. Add some tourist attractions to England
  */
 
-unitedKingdom[1].touristAttractions = ["London Eye", "Big Ben"];
 england = unitedKingdom[1];
+england.touristAttractions = ["London Eye", "Big Ben"];
 
 console.log(england);
+console.log(unitedKingdom);
 
-/**
- * Q2. Change the capital of Wales to "Cardiff"
- */
+// /**
+//  * Q2. Change the capital of Wales to "Cardiff"
+//  */
 
-unitedKingdom[2].capital = "Cardiff"
+// unitedKingdom[2].capital = "Cardiff"
 wales = unitedKingdom[2];
+wales.capital = "Cardiff";
 
-console.log(wales);
+console.log(unitedKingdom);
 
-/**
- * Q3. Find a method in the documentation which will give you all of the available keys for Northern Ireland
- */
+// /**
+//  * Q3. Find a method in the documentation which will give you all of the available keys for Northern Ireland
+//  */
 
 northernIrelandKeys = Object.keys(unitedKingdom[3]);
 
 console.log(northernIrelandKeys);
 
-/**
- * Q4. Use an if statement to compare the population of Scotland to the other countries and print out if it is the biggest, smallest or somewhere in the middle.
- */
-if (unitedKingdom[0].population > unitedKingdom[1].population && unitedKingdom[0].population > unitedKingdom[2].population && unitedKingdom[0].population > unitedKingdom[3].population){
-  console.log("Biggest");
-} else if (unitedKingdom[0].population < unitedKingdom[1].population && unitedKingdom[0].population < unitedKingdom[2].population && unitedKingdom[0].population < unitedKingdom[3].population) {
-  console.log("Smallest");
-} else {
-  console.log("Somewhere in the middle");
-}
+// /**
+//  * Q4. Use an if statement to compare the population of Scotland to the other countries and print out if it is the biggest, smallest or somewhere in the middle.
+//  */
+// if (unitedKingdom[0].population > unitedKingdom[1].population && unitedKingdom[0].population > unitedKingdom[2].population && unitedKingdom[0].population > unitedKingdom[3].population){
+//   console.log("Biggest");
+// } else if (unitedKingdom[0].population < unitedKingdom[1].population && unitedKingdom[0].population < unitedKingdom[2].population && unitedKingdom[0].population < unitedKingdom[3].population) {
+//   console.log("Smallest");
+// } else {
+//   console.log("Somewhere in the middle");
+// }
+
+// //OR
+// if (unitedKingdom[0].population <
+//   (unitedKingdom[1].population && unitedKingdom[2].population && unitedKingdom[3].population)){
+//     console.log("Smallest");
+//   }
+// else if (unitedKingdom[0].population >
+//   (unitedKingdom[1].population && unitedKingdom[2].population && unitedKingdom[3].population)){
+//     console.log("Biggest");
+// } else {
+//   console.log("Somewhere in the middle");
+// }
